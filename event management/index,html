@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventora - Event Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Eventora Events</h1>
+    <p>Professional Planning for Weddings, Parties & Corporate Events</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#booking">Booking</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+    </ul>
+</nav>
+
+<section id="events">
+    <h2>Upcoming Events</h2>
+
+    <div class="event-card">
+        <img src="C:\Users\Vishvjeet Singh\Downloads\wedding.jpg">
+        <h3>Royal Wedding Ceremony</h3>
+        <p>A beautifully curated wedding with elegant décor, lighting, and hospitality.</p>
+        <strong>Date: 18 March 2025</strong><br>
+        <button class="btn">View Details</button>
+    </div>
+
+    <div class="event-card">
+        <img src="C:\Users\Vishvjeet Singh\Downloads\corporateannualmeet.jpg">
+        <h3>Corporate Annual Meet</h3>
+        <p>Complete event management for corporate meetings, conferences, and award shows.</p>
+        <strong>Date: 25 March 2025</strong><br>
+        <button class="btn">View Details</button>
+    </div>
+
+    <div class="event-card">
+        <img src="C:\Users\Vishvjeet Singh\Downloads\birthday.jpg">
+        <h3>Birthday Celebration</h3>
+        <p>Fun-filled themed birthday parties with entertainment, food, and décor.</p>
+        <strong>Date: 5 April 2025</strong><br>
+        <button class="btn">View Details</button>
+    </div>
+</section>
+
+<section id="booking">
+    <h2>Book an Event</h2>
+
+    <form class="booking-form">
+        <label>Name:</label>
+        <input type="text" required>
+
+        <label>Email:</label>
+        <input type="email" required>
+
+        <label>Phone:</label>
+        <input type="text" required>
+
+        <label>Event Type:</label>
+        <select required>
+            <option value="">Select</option>
+            <option>Wedding</option>
+            <option>Corporate Event</option>
+            <option>Birthday Party</option>
+            <option>Concert</option>
+            <option>Other</option>
+        </select>
+
+        <label>Event Date:</label>
+        <input type="date" required>
+
+        <label>Additional Details:</label>
+        <textarea rows="4" required></textarea>
+
+        <button class="btn">Submit Booking</button>
+    </form>
+</section>
+
+<section id="testimonials">
+    <h2>Client Testimonials</h2>
+
+    <div class="testimonial-card">
+        <h3>Rahul Khanna</h3>
+        <p>"Eventora planned our wedding perfectly. Everything was organized beautifully!"</p>
+        <span>★★★★★</span>
+    </div>
+
+    <div class="testimonial-card">
+        <h3>Shruti Singh</h3>
+        <p>"Amazing team! Our corporate event went smoothly thanks to their dedication."</p>
+        <span>★★★★☆</span>
+    </div>
+
+    <div class="testimonial-card">
+        <h3>Sanjay & Neha</h3>
+        <p>"The birthday event was stunning. Kids and family loved the decorations."</p>
+        <span>★★★★★</span>
+    </div>
+</section>
+
+<footer>
+    <p>© 2025 Eventora Event Management. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
